@@ -18,8 +18,7 @@ import { auth } from "../firebase-config";
                    console.log(uc);
                    if(uc){
                        console.log("giriş yapıldı")
-                       navigation.navigate("HomeScreen")
-                        
+                       navigation.navigate("HomeScreen")                       
                    }
                    else{
                        console.log("kullanıcı bulunamadı")

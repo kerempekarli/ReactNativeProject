@@ -4,11 +4,11 @@ import React from 'react';
 
 
 
-export default function HomeScreen({navigation}) {
+export default function Shanghai({navigation}) {
   return (
   
-<ImageBackground source={require("./Images/pexels-roberto-nickson-2486168.jpg")} style={styles.image}  resizeMode="cover">
-      
+<ImageBackground source={require("./Images/Explore.png")} style={styles.image}  resizeMode="cover">
+
       <View style={styles.main}>
       <View style={styles.touchable}>
     <TouchableOpacity style={styles.button}>
@@ -17,9 +17,9 @@ export default function HomeScreen({navigation}) {
       </Text>
     </TouchableOpacity>
               
-    <TouchableOpacity onPress={()=>{navigation.navigate("Shanghai")}} style={styles.button}>
+    <TouchableOpacity onPress={()=>{navigation.navigate("MainScreen")}} style={styles.button}>
       <Text style={styles.text}>
-        Welcome to Hawaii
+        Welcome to Shanghai
       </Text>
     </TouchableOpacity>
     </View>
@@ -48,10 +48,10 @@ const styles = StyleSheet.create({
     },
     text:{
       fontSize:30,
-      color:"#ba007f",
+      color:"#0095ff",
       padding:3,
-      backgroundColor:"#0095ff",
+      backgroundColor:"#ba007f",
       borderRadius:10
     }
- 
+  
   })
